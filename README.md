@@ -25,7 +25,7 @@ development.
 
 > In few steps you can have a cool website!
 
-1. Set right values in [.env](/.env)
+1. Set values in [.env](/.env)
    1. **HUGO_VERSION**: The Hugo version which you will use. This really corresponds to Hugo Docker Image, check it out on
      its [DockerHub](https://hub.docker.com/r/peaceiris/hugo/tags?page=1&ordering=last_updated).
    2. **LOCAL_PORT**: The local port of Hugo Server.
