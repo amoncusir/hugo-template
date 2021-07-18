@@ -25,33 +25,33 @@ development.
 
 In few steps you can have a cool website!
 
-. Set right values in [.env](/.env)
-  . **HUGO_VERSION**: The Hugo version which you will use. This really corresponds to Hugo Docker Image, check it out on
-    its [DockerHub](https://hub.docker.com/r/peaceiris/hugo/tags?page=1&ordering=last_updated).
-  . **LOCAL_PORT**: The local port of Hugo Server.
-  . **LOCAL_DOMAIN**: The local domain of Hugo Server. Must be ended with top domain `.localhost`!
-  . **EXTERNAL_DOMAIN**: Your domain for hosted page. This value is used to create a `CNAME` file in your build.
-  . **GIT_DEPLOY_BRANCH**: The output branch to host the website build for [Github Pages](/settings/pages).
+1. Set right values in [.env](/.env)
+   1. **HUGO_VERSION**: The Hugo version which you will use. This really corresponds to Hugo Docker Image, check it out on
+     its [DockerHub](https://hub.docker.com/r/peaceiris/hugo/tags?page=1&ordering=last_updated).
+   2. **LOCAL_PORT**: The local port of Hugo Server.
+   3. **LOCAL_DOMAIN**: The local domain of Hugo Server. Must be ended with top domain `.localhost`!
+   4. **EXTERNAL_DOMAIN**: Your domain for hosted page. This value is used to create a `CNAME` file in your build.
+   5. **GIT_DEPLOY_BRANCH**: The output branch to host the website build for [Github Pages](/settings/pages).
 
-. Add your selected theme in the project! [See more](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme)
+2. Add your selected theme in the project! [See more](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme)
 
-. Fill and complete the `config.toml` file for your website.
-  . [Config file](/config/_default/config.toml)
-  . [Hugo Configuration Docs](https://gohugo.io/getting-started/configuration/)
+3. Fill and complete the `config.toml` file for your website.
+   1. [Config file](/config/_default/config.toml)
+   2. [Hugo Configuration Docs](https://gohugo.io/getting-started/configuration/)
 
-. Check in the local environment your coolest website.
-  . Up the **docker-compose**. Using make: `make up` or raw method: `docker-compose up -d --remove-orphans` in your
+4. Check in the local environment your coolest website.
+   1. Up the **docker-compose**. Using make: `make up` or raw method: `docker-compose up -d --remove-orphans` in your
     terminal.
-  . Open in your browser (http://mywebsite.localhost)[http://mywebsite.localhost]
+   2. Open in your browser (http://mywebsite.localhost)[http://mywebsite.localhost]
 
-. Enable the GitHub Pages in your repository and set the right DNS registers in your provider.
-  . Remember, the git branch must be the same that set in the `.env` file!
-  . [GitHub Pages Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-  . [GitHub Pages Custom DNS](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+5. Enable the GitHub Pages in your repository and set the right DNS registers in your provider.
+   1. Remember, the git branch must be the same that set in the `.env` file!
+   2. [GitHub Pages Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+   3. [GitHub Pages Custom DNS](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
 
-. Cool! You're ready to publish your website!
-  . If you're working in a different branch that `main`, merge your changes in `main` branch to publish the website.
-  . Push your changes to GitHub `git push origin main`
+6. Cool! You're ready to publish your website!
+   1. If you're working in a different branch that `main`, merge your changes in `main` branch to publish the website.
+   2. Push your changes to GitHub `git push origin main`
 
 ## How to configure
 
