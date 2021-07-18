@@ -23,7 +23,7 @@ development.
 
 ## Set Up
 
-In few steps you can have a cool website!
+> In few steps you can have a cool website!
 
 1. Set right values in [.env](/.env)
    1. **HUGO_VERSION**: The Hugo version which you will use. This really corresponds to Hugo Docker Image, check it out on
@@ -31,7 +31,7 @@ In few steps you can have a cool website!
    2. **LOCAL_PORT**: The local port of Hugo Server.
    3. **LOCAL_DOMAIN**: The local domain of Hugo Server. Must be ended with top domain `.localhost`!
    4. **EXTERNAL_DOMAIN**: Your domain for hosted page. This value is used to create a `CNAME` file in your build.
-   5. **GIT_DEPLOY_BRANCH**: The output branch to host the website build for [Github Pages](/settings/pages).
+   5. **GIT_DEPLOY_BRANCH**: The output branch to host the website build for GitHub Pages. (`Repo > Settings > Pages`)
 
 2. Add your selected theme in the project! [See more](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme)
 
@@ -42,7 +42,7 @@ In few steps you can have a cool website!
 4. Check in the local environment your coolest website.
    1. Up the **docker-compose**. Using make: `make up` or raw method: `docker-compose up -d --remove-orphans` in your
     terminal.
-   2. Open in your browser (http://mywebsite.localhost)[http://mywebsite.localhost]
+   2. Open in your browser [](http://mywebsite.localhost)
 
 5. Enable the GitHub Pages in your repository and set the right DNS registers in your provider.
    1. Remember, the git branch must be the same that set in the `.env` file!
