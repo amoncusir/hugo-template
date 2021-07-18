@@ -1,10 +1,10 @@
 # Hugo Template #
 
----
-
 - [About](#about)
 - [Dependencies](#dependencies)
 - [Set Up](#set-up)
+- [How to configure](#how-to-configure)
+- [License](#license)
 
 ## About
 
@@ -66,6 +66,6 @@ documentation if you have any question.
 
 ## License
 
-Copyleft - Aran Moncusí Ramírez <aran@digitalpoetinfo>
+Copyleft (ɔ) - Aran Moncusí Ramírez <aran@digitalpoetinfo>
 
 This template is released under the GPL v3 License. [Check it!](LICENSE)
